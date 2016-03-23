@@ -1,0 +1,21 @@
+{
+  "name": "taproom_angular",
+  "description": "",
+  "main": "",
+  "authors": [
+    "David Remington"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
