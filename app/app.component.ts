@@ -1,13 +1,14 @@
 import { Component } from 'angular2/core';
 
-// defining annotation aka "decorator"
+
 @Component({
   selector: 'my-app',
   template: `
   <div class="container">
-    <h1>Skeleton Angular2 App!</h1>
+    <h1>Tap Boss</h1>
+    <new-keg></new-keg>
   </div>
-  ` //uses backticks
+  `
 })
 
 export class AppComponent {
