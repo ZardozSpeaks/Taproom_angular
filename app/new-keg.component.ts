@@ -24,5 +24,9 @@ export class NewKegComponent {
     var newKeg = new Keg(newName.value, newBrand.value, parseFloat(newPrice.value), parseFloat(newABV.value));
     console.log(newKeg);
     this.onSubmitNewKeg.emit(newKeg);
+    newName.value = null;
+    newBrand.value = null;
+    newPrice.value = null;
+    newABV.value = null;
   }
 }
